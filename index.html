@@ -1,0 +1,66 @@
+'<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hangman Game</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  crossorigin="anonymous" />
+
+  <!-- HTML <link> Tags -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet">
+
+  <!-- Javascript File -->
+  <script src="assets/javascript/game.js"></script>
+
+</head>
+
+<!-- Press any key to get started -->
+<div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+  <h2 class="text-center">What is the name of the song from Linin Park?</h2>
+
+  <div id="won">You Won!</div>
+  <div id="lost">You Lost!</div>
+
+  <!-- Columns -->
+
+  <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <h3>Wins:</h3>
+    <div id="wins"></div>
+  </div>
+
+  <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <h3>Losses:</h3>
+    <div id="losses"></div>
+  </div>
+
+  <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <h3>Numbers of Guesses Left:</h3>
+    <div id="guessesLeft"></div>
+  </div>
+
+  <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+    <h3>Letters Already Guessed:</h3>
+    <div id="AlreadyGuessed"></div>
+  </div>
+
+  <div class="container col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+  </div>
+
+  <div id="word"></div>
+
+  <p id="answer"> _ _ _ _ _ _ _ _ _ _ </p>
+
+
+</div>
+
+</body>
+</html>

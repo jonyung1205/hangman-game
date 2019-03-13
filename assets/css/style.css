@@ -1,0 +1,13 @@
+body {
+    font-family: "New Rocker";
+    font-size: 30px;
+    background-image: url("../images/linkinpark.png");
+}
+
+#won {
+    display: none;
+}
+
+#lost {
+    display: none;
+}
